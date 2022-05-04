@@ -215,3 +215,131 @@ input {
 
 }
 
+@media screen and (max-width: 770px) {
+    .Alura {
+        display: inherit;
+        margin-left: 40px
+    }
+
+    .input {
+        display: inherit;
+        left: 0px;
+        top: 100px;
+        width: 1px;
+
+    }
+
+    .rectangulo1 {
+        display: inherit;
+        position: relative;
+        left: 0px;
+        top: 500px;
+        width: 300px;
+        height: 1500px;
+    }
+
+    .botonCopiar{
+        display: block;
+    }
+
+    .frame1 {
+        display: inherit;
+        left: 0px;
+    }
+
+    .texto3 {
+        display: inherit;
+        margin-left: 20px;
+        margin-top: -20px;
+
+    }
+
+    .botones {
+        display: inherit;
+    }
+
+    .boton1 {
+    display: inherit;    
+    position: fixed;
+    width: 150px;
+    height: 30px;
+    left: 0px;
+    top: 500px;
+    
+
+    }
+
+    .boton2 {
+        display: inherit;
+            position: fixed;
+    width: 150px;
+    height: 30px;
+    left: 200px;
+    top: 500px;
+    }
+}
+    
+@media screen and (max-width: 375px) {
+    .Alura {
+        display: inherit;
+        margin-left: 40px
+    }
+
+    .input {
+        display: inherit;
+        left: 0px;
+        top: 100px;
+        width: 1px;
+
+    }
+
+    .rectangulo1 {
+        display: inherit;
+        position: relative;
+        left: 0px;
+        top: 500px;
+        width: 300px;
+        height: 1500px;
+    }
+
+    .botonCopiar{
+        display: block;
+    }
+
+    .frame1 {
+        display: inherit;
+        left: 0px;
+    }
+
+    .texto3 {
+        display: inherit;
+        margin-left: 20px;
+        margin-top: -20px;
+
+    }
+
+    .botones {
+        display: inherit;
+    }
+
+    .boton1 {
+    display: inherit;    
+    position: fixed;
+    width: 150px;
+    height: 30px;
+    left: 0px;
+    top: 500px;
+    
+
+    }
+
+    .boton2 {
+        display: inherit;
+            position: fixed;
+    width: 150px;
+    height: 30px;
+    left: 200px;
+    top: 500px;
+    }
+}
+    
