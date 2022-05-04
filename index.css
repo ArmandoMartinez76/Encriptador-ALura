@@ -4,14 +4,13 @@
     height: 48px;
     left: 0px;
     top: 0px;
+    margin-top: 20px;
+    margin-left: 40px;
 
 
     /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 40px 0px;
+
 }
 
 body {
@@ -89,7 +88,7 @@ input {
     top: 74px;
 }
 
-.texto2 {
+.texto22 {
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -105,6 +104,18 @@ input {
     color: #495057;
 }
 
+.botonCopiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    text-align: center;
+    display: none;
+}
+
 .frame1 {
     display: flex;
     flex-direction: row;
@@ -115,7 +126,7 @@ input {
     width: 229px;
     height: 18px;
     left: 240px;
-    top: 851px;
+    top: 400px;
 
 }
 
@@ -151,14 +162,15 @@ input {
     padding: 0px;
     
 
-    position: absolute;
+    position: inherit;
     width: 680px;
     height: 67px;
     left: 240px;
-    top: 885px;
+    top: 400px;
 }
 
 .boton1 {
+    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -169,38 +181,13 @@ input {
     height: 67px;
     left: 0px;
     top: 0px;
+    margin-right: 30px;
 
     /* Dark blue/dark-blue-300 */
 
     background: #0A3871;
     border-radius: 24px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 24px;
-}
-
-.encriptar {
-    position: static;
-    width: 280px;
-    height: 19px;
-    left: 24px;
-    top: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-
-    /* White */
-
     color: #FFFFFF;
-
 }
 
 .boton2 {
@@ -212,8 +199,10 @@ input {
     position: static;
     width: 328px;
     height: 67px;
-    left: 352px;
+    left: 500px;
     top: 0px;
+    text-align: center;
+    color: #0A3871;
 
     /* Light gray */
 
@@ -224,29 +213,5 @@ input {
     box-sizing: border-box;
     border-radius: 24px;
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 24px;
 }
 
-.desencriptar{position: static;
-    width: 280px;
-    height: 19px;
-    left: 24px;
-    top: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-
-    /* Dark blue/dark-blue-300 */
-
-    color: #0A3871;
-
-}

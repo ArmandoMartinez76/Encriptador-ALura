@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="alura.svg" >
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet" />
@@ -22,19 +23,20 @@
 
     <div class="input">
         <label for="texto"></label>
-        <input type="text" class="introducirtexto" placeholder="Introduce el texto aqui" id="texto" />
+        <input type="text" class="introducirtexto" placeholder="Introduce el texto aqui" id="textoInput" />
     </div>
 
     <div class="rectangulo1">
         <div class="muñeco">
-            <img src="/muñeco.svg" alt="muneñeco" />
+            <img class="muñeco1" src="/muñeco.svg" id="muñeco1" alt="muneñeco" />
         </div>
         <div class="posiciontexto1">
-            <p class="texto1">Ningun mensaje fue encontrado</p>
+            <p class="texto1" id="texto1">Ningun mensaje fue encontrado</p>
             <div class="posiciontexto2">
-                <p class="texto2">
+                <p class="texto22" id="texto2">
                     Ingresa el texto que desees encriptar o desencriptar
                 </p>
+                <button class="botonCopiar" id="copiarTexto" type="button" onclick="copiarContenido()">Copiar Texto</button>
             </div>
         </div>
     </div>
@@ -45,14 +47,12 @@
     </div>
 
     <div class="botones">
-        <button class="boton1" onclick="">
-            <p class="encriptar">Encriptar</p> 
+        <button class="boton1" onclick="encriptarTexto()" type="button">
+            Encriptar
         </button>
 
-        <button class="boton2" onclick="">
-
-            <p class="desencriptar">Desencriptar</p> 
-
+        <button class="boton2" onclick="desencriptarTexto()" type="button">
+            Desencriptar
         </button>
     </div>
 
